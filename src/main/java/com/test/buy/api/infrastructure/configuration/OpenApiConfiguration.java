@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class OpenApiConfiguration {
-    private static final String HTTP_URL = "https://github.com";
+    private static final String HTTP_URL = "https://github.com/jarbor23/APi_PRICE/blob/master/README.md";
     public static final String[] PRICE_ALLOWED_PATH = {"/price*", "/price/*", "/price/queryPrice/**"};
 
     @Bean
